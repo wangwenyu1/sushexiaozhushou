@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/snake/snake",
+    "pages/2048/2048"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0080FF",
+    "navigationBarTitleText": "你想上厕所吗？😏",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/snake/snake",
+      "text": "贪吃蛇",
+      "iconPath": "/images/17.jpg",
+      "selectedIconPath": "/images/17.jpg"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "附近厕所",
+      "iconPath": "/images/厕所.png",
+      "selectedIconPath": "/images/厕所.png"
+    },{
+      "pagePath": "pages/2048/2048",
+      "text": "2048",
+      "iconPath": "/images/2048.png",
+      "selectedIconPath": "/images/2048.png"
+  }]
+  }
+}

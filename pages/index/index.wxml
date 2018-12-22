@@ -1,0 +1,63 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view>
+
+<van-cell-group>
+  <van-cell
+    title="加入计划宿舍"
+    value="状态"
+  />
+  <van-cell
+    title="c116"
+    value="zhuangtai"
+    label="允许时间：7：00——23：00"
+    border="{{ false }}"
+  />
+    <van-cell
+    title="单元格"
+    value="内容"
+    label="描述信息"
+    border="{{ false }}"
+  />
+    <van-cell
+    title="单元格"
+    value="内容"
+    label="描述信息"
+    border="{{ false }}"
+  />
+    <van-cell
+    title="单元格"
+    value="内容"
+    label="描述信息"
+    border="{{ false }}"
+  />
+    <van-cell
+    title="单元格"
+    value="内容"
+    label="描述信息"
+    border="{{ false }}"
+  />
+</van-cell-group>
+
+</view>
+
+<view class='content'>
+  <view class='wc'>
+    <image src='/images/man.png'></image>
+    <button id="btn3" style="opacity: {{opacity}}" 
+    disabled="{{disabled}}" bindtap="send" plain="false">♂C116</button>
+  </view>
+   <view class='wc'>
+    <image src='/images/woman.png'></image>
+    <button id="btn3" style="opacity: {{opacity}}" 
+    disabled="{{disabled}}" bindtap="send" plain="false">C115♀</button>
+  </view>
+</view>
+
